@@ -1,0 +1,54 @@
+/* Login.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Esto establece la altura del contenedor para cubrir toda la pantalla */
+    background-color: #f0f0f0;
+    /* Color de fondo de respaldo */
+    background-image: url('../../assets/img/bg-login.png');
+    /* Ruta de la imagen de fondo */
+    background-size: cover;
+    /* Ajustar la imagen para cubrir toda la pantalla */
+    background-position: center;
+    /* Centrar la imagen de fondo */
+}
+
+.login-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Fondo semi-transparente para el formulario */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Sombra ligera */
+}
+
+/* Estilos para los elementos del formulario (input, button, etc.) */
+input[type="text"],
+input[type="password"] {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+}
+
+
+button:hover {
+    background-color: #0056b3;
+}
